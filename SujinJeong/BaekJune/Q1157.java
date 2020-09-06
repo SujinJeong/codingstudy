@@ -14,10 +14,10 @@ public class Q1157 {
 
 		int max = -1; char rslt = '?';
 		for (int i = 0; i < 26; i++) {
-			if (arr[i] > max) { // ÃÖ´ë°ª Ã£±â
+			if (arr[i] > max) { // ìµœëŒ€ê°’ ì°¾ê¸°
 				max = arr[i];
 				rslt = (char)(i+ 'A');
-			} else if (arr[i] == max) // ÃÖ´ë °ªÀÌ 2°³ ÀÌ»ó ³ª¿Â°æ¿ì
+			} else if (arr[i] == max) // ìµœëŒ€ ê°’ì´ 2ê°œ ì´ìƒ ë‚˜ì˜¨ê²½ìš°
 				rslt = '?';
 		}
 		System.out.print(rslt);
