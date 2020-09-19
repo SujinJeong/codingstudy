@@ -1,3 +1,5 @@
+package Bronze;
+
 import java.util.Scanner;
 
 public class Q2438 {

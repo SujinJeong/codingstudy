@@ -1,4 +1,6 @@
-	import java.util.Scanner;
+package Bronze;
+
+import java.util.Scanner;
 
 	public class Q2884 {
 
